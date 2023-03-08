@@ -1,39 +1,67 @@
-const logotext = "JOHN";
+const logotext = "DY";
 const meta = {
-    title: "John Doe",
+    title: "Daryl Yoon",
     description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Daryl Yoon",
     animated: {
         first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        second: "I am an innovative programmer",
+        third: "I develop web applications",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "I am an innovative programmer and web designer, passionate about learning more and sharpening my skills. A creative thinker that is adept in software development and working with different data structures. I am always eager to learn and love working in teams, putting my best in everything I set out to do. ",
+    your_img_url: "/",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "Abit about my self",
+    aboutme: "I am an innovative programmer and web designer, passionate about learning more and sharpening my skills. A creative thinker that is adept in software development and working with different data structures. I am always eager to learn and love working in teams, putting my best in everything I set out to do. ",
 };
+
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
+        jobtitle: "Full Stack Developer",
+        where: "Aloha",
+        date: "2023",
+    },
+    {
+        jobtitle: "Data Scientist",
+        where: "RSM",
+        date: "2022",
+    },
+    {
+        jobtitle: "Hospitality Associate/ Bartender Trainee",
+        where: "Caffe Fernet",
+        date: "2021",
+    },
+    {
+        jobtitle: "Second Sergeant",
+        where: "Commando Battalion",
         date: "2020",
     },
-    {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
-    },
+];
+
+const school = [{
+    jobtitle: "Singapore Management University                                                                                             ",
+    where: "Double Major in Business Analytics and Digitalisation & Cloud Solutions",
+    date: "Present",
+},
+{
+    jobtitle: "Serangoon Junior College",
+    where: "A Levels",
+    date: "2017-2018",
+},
+{
+    jobtitle: "Anglican High School",
+    where: "O Levels",
+    date: "2012-2016",
+},
+{
+    jobtitle: "Elias Park Primary School",
+    where: "PSLE",
+    date: "2005-2011",
+},
 ];
 
 const skills = [{
@@ -41,7 +69,7 @@ const skills = [{
         value: 90,
     },
     {
-        name: "Djano",
+        name: "Django",
         value: 85,
     },
     {
@@ -59,16 +87,20 @@ const skills = [{
 ];
 
 const services = [{
+        title: "Full Stack Web Development",
+        description: "Profecient in using HTML, CSS, Bootstrap, Javascript, PHP, Django, Tailwind and React",
+    },
+    {
+        title: "Data Analytics",
+        description: "Profecient in Tableau, Power BI, and Python",
+    },
+    {
         title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        description: "Profecient in Figma",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Machine Learning and AI",
+        description: "Profecient in Python, CatBoost, XBoost and Tensorflow",
     },
 ];
 
@@ -77,67 +109,12 @@ const dataportfolio = [{
         desctiption: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
-    {
-        img: "https://picsum.photos/400/800/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+    
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
+    YOUR_EMAIL: "darylykl@gmail.com",
+    YOUR_FONE: "(+65) 83569245",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
@@ -163,4 +140,5 @@ export {
     contactConfig,
     socialprofils,
     logotext,
+    school
 };
