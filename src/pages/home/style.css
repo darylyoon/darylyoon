@@ -15,6 +15,20 @@ section {
     color: var(--primary-color);
 }
 
+#home{
+    text-decoration: none;
+}
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
 .btn-portfolio {
     background: var(--primary-color);
     border-radius: 0;
