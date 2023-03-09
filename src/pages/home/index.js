@@ -144,18 +144,35 @@ export const Home = () => {
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>
-        <div className="mb-5 po_items_ho">
-          {dataportfolio.map((data, i) => {
-            return (
-              <div key={i} className="po_item">
-                <img src={data.img} alt="" />
+        <div className="mb-5">
+            <div key="0" className="po_item">
+                <img src={require('../../assets/images/itsgiving.png')} alt="" />
                 <div className="content">
-                  <p>{data.desctiption}</p>
-                  <a href={data.link}>view project</a>
+                  <p>A website that would help link students to CSP projects with other additional functions like interview slot management, data analytics for hours completed, FAQ chatbot, etc.</p>
+                  <a href="https://its-giving.netlify.app/">View website</a>
                 </div>
-              </div>
-            );
-          })}
+            </div>
+
+            <div key="1" className="po_item">
+                <img src={require('../../assets/images/protrack.jpg')} alt="" />
+                <div className="content">
+                  <p>Tasked to develop a website by myself for the new software my team was developing for the company.<br/><br/>The main idea of the software was streamlining prospect checking from different levels within the company.</p>
+                </div>
+            </div>
+
+            <div key="2" className="po_item" id="smaller">
+                <img src={require('../../assets/images/aloha.png')} alt="" />
+                <div className="content">
+                  <p><b>IN PROGRESS</b><br/><br/>Developing a website for a start up company<br/><br/>Aloha is re-imagining the future of work. In 3 clicks (browse, choose, book), access meaningful sustainability-minded experiences as you (re)connect with your employees and deliver positive impact to our Planet as a team</p>
+                </div>
+            </div>
+
+            <div key="3" className="po_item" id="smaller">
+                <img src={require('../../assets/images/redstore.png')} alt="" />
+                <div className="content">
+                <p>Personal practice project to develop a functioning ecommerce online store</p>
+                </div>
+            </div>
         </div>
       </Container>
 
