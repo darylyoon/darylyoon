@@ -105,7 +105,17 @@ const services = [{
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
+        img: "../../assets/images/itsgiving.png",
+        desctiption: "A website that would help link students to CSP projects with other additional functions like interview slot management, data analytics for hours completed, FAQ chatbot, etc.",
+        link: "https://its-giving.netlify.app/",
+    },
+    {
+        img: "../../assets/images/itsgiving.png",
+        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
+        link: "#",
+    },
+    {
+        img: "../../assets/images/itsgiving.png",
         desctiption: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
