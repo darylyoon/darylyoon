@@ -173,6 +173,22 @@ export const Home = () => {
                 <p>Personal practice project to develop a functioning ecommerce online store</p>
                 </div>
             </div>
+
+            <div key="4" className="po_item" id="smaller">
+                <img src={require('../../assets/images/dbtt.png')} alt="" />
+                <div className="content">
+                <p><b>IN PROGRESS</b><br/><br/>Prototyping a mobile application to help fishermen streamline loan claims</p>
+                <a href="https://www.figma.com/file/6vkMBxGZmA9zQEXY2f7i9w/Bait-and-Hook?node-id=0%3A1&t=Ow9sRH4COpFD9eqF-0">View Figma</a>
+                </div>
+            </div>
+
+            <div key="5" className="po_item" id="smaller">
+                <img src={require('../../assets/images/esd.png')} alt="" />
+                <div className="content">
+                <p><b>IN PROGRESS</b><br/><br/>Developing a web application for restaurant booking with an integrated split playment</p>
+                <a href="https://www.figma.com/file/3P1lKfyhdoQWim6NMHBNic/esd?node-id=4%3A83&t=s7CPRgX1cutSgqVt-0">View Figma</a>
+                </div>
+            </div>
         </div>
       </Container>
 
