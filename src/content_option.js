@@ -20,7 +20,12 @@ const dataabout = {
     aboutme: "I am an innovative programmer and web designer, passionate about learning more and sharpening my skills. A creative thinker that is adept in software development and working with different data structures. I am always eager to learn and love working in teams, putting my best in everything I set out to do. I specialise in frontend development and design with backend integration capabilities",
 };
 
-const worktimeline = [{
+const worktimeline = [
+    {
+        jobtitle: "Software Engineer",
+        where: "GovTech",
+        date: "2023",
+    },{
         jobtitle: "Full Stack Developer",
         where: "Aloha",
         date: "2023",
@@ -74,11 +79,11 @@ const skills = [{
     },
     {
         name: "Javascript",
-        value: 80,
+        value: 85,
     },
     {
         name: "React",
-        value: 60,
+        value: 90,
     },
     {
         name: "Jquery",
