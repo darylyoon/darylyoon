@@ -163,7 +163,7 @@ export const Home = () => {
             <div key="2" className="po_item" id="smaller">
                 <img src={require('../../assets/images/aloha.png')} alt="" />
                 <div className="content">
-                  <p><b>IN PROGRESS</b><br/><br/>Developing a website for a start up company<br/><br/>Aloha is re-imagining the future of work. In 3 clicks (browse, choose, book), access meaningful sustainability-minded experiences as you (re)connect with your employees and deliver positive impact to our Planet as a team</p>
+                  <p>Developing a website for a start up company<br/><br/>Aloha is re-imagining the future of work. In 3 clicks (browse, choose, book), access meaningful sustainability-minded experiences as you (re)connect with your employees and deliver positive impact to our Planet as a team</p>
                 </div>
             </div>
 
@@ -177,7 +177,7 @@ export const Home = () => {
             <div key="4" className="po_item" id="smaller">
                 <img src={require('../../assets/images/dbtt.png')} alt="" />
                 <div className="content">
-                <p><b>IN PROGRESS</b><br/><br/>Prototyping a mobile application to help fishermen streamline loan claims</p>
+                <p>Prototyping a mobile application to help fishermen streamline loan claims</p>
                 <a href="https://www.figma.com/file/6vkMBxGZmA9zQEXY2f7i9w/Bait-and-Hook?node-id=0%3A1&t=Ow9sRH4COpFD9eqF-0">View Figma</a>
                 </div>
             </div>
@@ -185,7 +185,7 @@ export const Home = () => {
             <div key="5" className="po_item" id="smaller">
                 <img src={require('../../assets/images/esd.png')} alt="" />
                 <div className="content">
-                <p><b>IN PROGRESS</b><br/><br/>Developing a web application for restaurant booking with an integrated split playment</p>
+                <p>Developing a web application for restaurant booking with an integrated split playment</p>
                 <a href="https://www.figma.com/file/3P1lKfyhdoQWim6NMHBNic/esd?node-id=4%3A83&t=s7CPRgX1cutSgqVt-0">View Figma</a>
                 </div>
             </div>
