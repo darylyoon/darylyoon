@@ -1,0 +1,9 @@
+/* style */
+h1 {
+  color: var(--quaternary-color);
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 1rem;
+    text-align: center;
+    padding-top: 350px;
+}
