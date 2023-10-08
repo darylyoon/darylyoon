@@ -6,7 +6,7 @@ const meta = {
 
 const introdata = {
     title: "Daryl Yoon",
-    role: "Undergraduate at Singapore Management University",
+    role: "Penultimate at Singapore Management University",
     animated: {
         first: ["Full Stack Developer", "Mobile App Developer"],
     },
