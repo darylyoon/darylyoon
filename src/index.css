@@ -1,3 +1,6 @@
+/* src/index.css */
+@import '~@fortawesome/fontawesome-free/css/all.css';
+
 :root {
     --bg-color:#191F2D;
     --primary-color: #232B3E;
@@ -6,6 +9,7 @@
     --quaternary-color: #758191;
     --text-color: #F9FFFF;
     --text-color-2: black;
+    --text-color-3: #616A7B;
 }
 
 html,

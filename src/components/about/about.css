@@ -1,0 +1,29 @@
+.aboutContainer p{
+    font-size: 16px;
+    color: var(--text-color-3);
+    line-height: 1.8;
+}
+
+.aboutContainer{
+    padding: 0px 20px 0px 20px;
+}
+
+.bolded{
+    font-weight: 600;
+    color: var(--text-color);
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.bolded:hover{
+    color: var(--tertiary-color);
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 650px){
+    .aboutContainer p{
+        font-size: 14px;
+        color: var(--text-color-3);
+        line-height: 1.8;
+    }
+}

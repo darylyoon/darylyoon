@@ -1,0 +1,39 @@
+.navbarContainer{
+    background-color: var(--bg-color);
+}
+.nav-link{
+    color: var(--quaternary-color) !important;
+    font-size: 14px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.active{
+    color: var(--text-color) !important;
+}
+
+.navbar{
+    padding: 0 !important;
+}
+
+.navbar-nav .nav-link {
+    padding: 8px 0px!important;
+}
+
+.navbar-nav{
+    display: flex;
+    flex-direction: column !important;
+}
+
+.navbarContainer .nav-link:hover, .navbarContainer .navbar-brand:hover{
+    color: var(--text-color) !important;
+}
+
+.navbarContainer span{
+    color: var(--tertiary-color) !important;
+    opacity: 0.7;
+}
+
+.navbar-collapse{
+    display: block !important;
+}

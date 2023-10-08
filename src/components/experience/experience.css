@@ -1,0 +1,124 @@
+.entryContainer{
+    display: flex;
+    flex-direction: row;
+    color: var(--text-color-3);
+    gap: 15px;
+    padding: 20px;
+    transition: 0.3s;
+}
+
+.entryContainer:hover{
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    .details p {
+        color: var(--text-color);
+    }
+    .pills span{
+        border: 1px solid var(--text-color);
+    }
+}
+
+.date{
+    width: 23%;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--tertiary-color);
+    text-align: left;
+}
+
+.details{
+    width: 77%;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--text-color-3);
+}
+
+.expContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.details h6{
+    margin-bottom: 3px;
+    color: var(--text-color);
+}
+
+.company{
+    color: var(--text-color);
+}
+
+.details p{
+    margin-bottom: 8px;
+    transition: 0.3s;
+}
+
+.pills span{
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    font-size: 12px;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    transition: 0.3s;
+    border: 1px solid var(--primary-color);
+}
+
+.pills{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    /* prevent overflowing div */
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.download-full a{
+    text-decoration: none !important;
+}
+
+.download-button{
+    color: var(--text-color);
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.try{
+    transition: 0.5s;
+}
+
+.download-button:hover{
+    .try{
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .entryContainer{
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .date{
+        width: 100%;
+        text-align: left;
+    }
+
+    .details{
+        width: 100%;
+        font-size: 13px;
+    }
+    .pills span{
+        font-size: 10px;
+    }
+    .date p {
+        margin-bottom: 0px;
+    }
+}

@@ -5,7 +5,7 @@ import {
   useLocation,
 } from "react-router-dom";
 import "./App.css";
-import Home from "../pages/index";
+import Home from "../pages/home";
 
 export default function App() {
   return (

@@ -1,0 +1,86 @@
+.proContainer{
+    color: var(--text-color-3);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 20px;
+}
+
+.eachProContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding: 20px;
+    transition: 0.3s;
+}
+
+.eachProContainer:hover{
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    .pills span{
+        border: 1px solid var(--text-color);
+    }
+    .projectImg{
+        opacity: 1;
+    }
+}
+
+.proLeft{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.proRight{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.projectImg{
+    width: 10vw;
+    height: 10vh;
+    object-fit: cover;
+    border-radius: 5px;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+@media screen and (max-width: 1200px){
+    .projectImg{
+        width: 20vw;
+        height: 12vh;
+    }
+}
+
+.proRight h6{
+    margin-bottom: 10px;
+    color: var(--text-color);
+}
+
+.proRight p{
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width: 650px){
+    .eachProContainer{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
+        transition: 0.3s;
+    }
+
+    .projectImg{
+        width: 80vw;
+        height: 19vh;
+    }
+
+    .proRight p{
+        font-size: 13px;
+    }
+}
