@@ -129,7 +129,7 @@ const services = [{
 const dataportfolio = [
     {
         title: "CareerKaki",
-        img: "nchp",
+        img: "careerkaki",
         desc: "Our GovTech team and I collaborated to craft an AI-powered chatbot, designed to emulate the guidance of a career coach. We elevated its capabilities by seamlessly integrating SingPass data, enabling a personalized and insightful user experience. Moreover, we established a valuable partnership with Google Developers, further enhancing the potential of our innovative chatbot project",
         link: "https://its-giving.netlify.app/",
         skills : ["ReactJS", "NodeJS", "Flask", "Python", "PostgreSQL", "Docker", "HTML/CSS", "JavaScript", "Git", "Go", "LangChain", "Socket.io"],
