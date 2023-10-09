@@ -6,6 +6,7 @@
 
 .aboutContainer{
     padding: 0px 20px 0px 20px;
+    padding-top: 80px;
 }
 
 .bolded{
@@ -25,5 +26,8 @@
         font-size: 14px;
         color: var(--text-color-3);
         line-height: 1.8;
+    }
+    .aboutContainer{
+        padding-top: 20px;
     }
 }

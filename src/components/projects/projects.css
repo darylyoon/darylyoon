@@ -12,6 +12,7 @@
     gap: 15px;
     padding: 20px;
     transition: 0.3s;
+    padding-top: 80px;
 }
 
 .eachProContainer:hover{
@@ -86,5 +87,9 @@
 
     .proRight p{
         font-size: 13px;
+    }
+
+    .proContainer{
+        padding-top: 20px;
     }
 }
