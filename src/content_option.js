@@ -35,14 +35,14 @@ const worktimeline = [
         desc: "I worked with government stakeholders to drive national career health projects, developing web prototypes and integrating AI chatbots. AGILE methodology streamlined workflows, and I contributed to a strategic partnership with Google, presenting project updates to senior leadership",
         skills:  ["ReactJS", "NodeJS", "Flask", "Python", "PostgreSQL", "Docker", "HTML/CSS", "JavaScript", "Git", "Go", "LangChain", "Socket.io", "AGILE", "CI/CD"],
     },{
-        jobtitle: "Full Stack Developer",
+        jobtitle: "Software Engineer",
         where: "Aloha",
         date: "Jan 2023 - May 2023",
         desc: "As a full-stack developer, my role involved not only developing a sustainable web application but also enhancing existing modules to create a more user-friendly experience. This work contributed to our mission of promoting sustainability by providing efficient access to eco-friendly team experiences, aligning with our goal of fostering positive environmental impact through the platform",
         skills:  ["ReactJS", "Flask", "Python", "MongoDB", "Docker", "HTML/CSS", "JavaScript", "Git",],
     },
     {
-        jobtitle: "Data Science Intern",
+        jobtitle: "Software Engineer",
         where: "RSM",
         date: "May 2022 - Jul 2022",
         desc: "I was a key contributor to a dynamic team, focusing on streamlining business processes through a new software solution. This involved leading coding projects, including web scraping and ESG-related tasks. I successfully developed and launched a full-stack web application using Django, enhancing our intranet. Additionally, I trained the Data Science team in Django usage, learned Knime to assist auditors, and set up a Virtual Machine and database environment for optimized software operations",
